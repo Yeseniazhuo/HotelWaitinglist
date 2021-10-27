@@ -8,9 +8,6 @@ Zhuo Yixuan A0242703N
 start mongodb：
 `screen mongod`
 
-start mongoshell：
-`mongo`
-
 initiate：
 `mongo IT5007Tutorial scripts/init.mongo.js`
 
