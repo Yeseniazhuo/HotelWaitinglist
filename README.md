@@ -8,7 +8,7 @@ Zhuo Yixuan A0242703N
 start mongodb：
 `screen mongod`
 
-initiate：
+initiate database：
 `mongo IT5007Tutorial scripts/init.mongo.js`
 
 ### Test the CRUD (after starting mongoDB)
