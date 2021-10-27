@@ -99,7 +99,7 @@ class DeleteCustomer extends React.Component {
     const form = document.forms.cusDelete;
     const id = form.id.value;
     this.props.deleteCustomer(id);
-    form.name.value = "";
+    form.id.value = "";
   }
 
   render() {

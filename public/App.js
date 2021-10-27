@@ -188,7 +188,7 @@ var DeleteCustomer = /*#__PURE__*/function (_React$Component5) {
       var form = document.forms.cusDelete;
       var id = form.id.value;
       this.props.deleteCustomer(id);
-      form.name.value = "";
+      form.id.value = "";
     }
   }, {
     key: "render",

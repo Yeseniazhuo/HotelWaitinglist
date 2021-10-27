@@ -33,8 +33,8 @@ async function testWithAsync() {
 
     // read the waitinglist
     console.log('\n------------------Read testing------------------')
-    const docs = await collection.find({}).toArray();
-    console.log('Result of find:\n', docs);
+    const docs = await collection.find({id:1}).toArray();
+    console.log('Result of find id:1 :\n', docs);
 
     //delete one in the waitinglist
     console.log('\n------------------Delete testing------------------')
