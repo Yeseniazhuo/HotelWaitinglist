@@ -1,10 +1,10 @@
-# Tutorial5 Project execute
+## Tutorial5 Project execute
 Zhuo Yixuan A0242703N
 
-## Clone the repository
+### Clone the repository
 `git clone https://github.com/Yeseniazhuo/IT5007Tutorial.git`
 
-## init and start mongodb
+### init and start mongodb
 start mongodb：
 `screen mongod`
 
@@ -14,14 +14,12 @@ start mongoshell：
 initiate：
 `mongo IT5007Tutorial scripts/init.mongo.js`
 
-## Test the CRUD (after starting mongoDB)
+### Test the CRUD (after starting mongoDB)
 `node scripts/trymongo.js`
 
-## Start Web
+### Start Web
 transfrom from jsx to js：
 `npx babel src --presets @babel/react --out-dir public`
 
 start the Web：
 `npm start`
-
-
