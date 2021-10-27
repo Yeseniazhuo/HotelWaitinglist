@@ -15,10 +15,10 @@ initiate：
 `node scripts/trymongo.js`
 
 ## Start Web
-transfrom jsx to js：
+transfrom from jsx to js：
 `npx babel src --presets @babel/react --out-dir public`
 
-start the we：
+start the Web：
 `npm start`
 
 
