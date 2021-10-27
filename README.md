@@ -1,8 +1,11 @@
 ## Tutorial5 Project execute
 Zhuo Yixuan A0242703N
 
-### Clone the repository
+Execute the following code to start web.
+
+### Clone the repository and install package
 `git clone https://github.com/Yeseniazhuo/IT5007Tutorial.git`
+`npm install`
 
 ### init and start mongodb
 start mongodb：
@@ -15,7 +18,7 @@ initiate database：
 `node scripts/trymongo.js`
 
 ### Start Web
-transfrom from jsx to js：
+transfrom .jsx to .js：
 `npx babel src --presets @babel/react --out-dir public`
 
 start the Web：
