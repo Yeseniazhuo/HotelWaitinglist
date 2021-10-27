@@ -1,0 +1,54 @@
+html {
+    background-color:peru;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    line-height:150%;}
+  body{
+    font-size: 20px;
+    line-height:150%;}
+  h1 {
+    padding: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+    text-align: center;
+    line-height: 70%;
+    color:burlywood;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(121, 60, 31);}
+  h2{
+    font-size: 19px;
+    margin: 3px 1px 1px 1px;
+  }
+  p{
+    text-align:center;
+    font-size: 25px ;
+    font-family: Georgia;}
+  div{
+    text-align:center;
+    font-size: 20px ;
+    font-family: Georgia;}
+  label{
+    font-size: 19px;
+    margin: 3px 3px 3px 3px;
+  }
+  button{
+    border: 1px dashed rgb(121, 60, 31);
+    padding: 4.5px 4.5px;
+    text-align: center;
+    font-size: 13px;
+    background-color:rgb(121, 60, 31);
+    margin: 5px 5px 5px 5px;
+    color: aliceblue;
+  }
+  button:active {
+    background-color: rgba(138, 100, 58, 0.877);
+    box-shadow: 0 5px rgba(182, 126, 89, 0.911);
+    transform: translateY(1px);
+  }
+  table{
+    margin:auto;
+    border-collapse: collapse;
+  }
+  table.customer-table th, td {border: 1px solid silver; padding: 4px;}

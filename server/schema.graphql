@@ -1,0 +1,30 @@
+scalar GraphQLDate
+
+type Customer
+{
+    id:Int!
+    name:String!
+    phone:String!
+    time:GraphQLDate!
+}
+
+input newCustomer
+{
+    id:Int
+    name:String!
+    phone:String!
+    time:GraphQLDate
+}
+
+##### Top level declarations
+
+type Query {
+  about: String!
+  waitlist: [Customer!]!
+}
+
+type Mutation {
+  setAboutMessage(message: String!): String
+  customerAdd(customer: newCustomer!): Customer
+  customerDelete(id: Int!): [Customer!]
+}
