@@ -4,7 +4,8 @@ Zhuo Yixuan A0242703N
 Execute the following code to start web.
 
 ### Clone the repository and install package
-`git clone https://github.com/Yeseniazhuo/IT5007Tutorial.git`
+`git https://github.com/Yeseniazhuo/HotelWaitinglist.git`
+
 `npm install`
 
 ### init and start mongodb
